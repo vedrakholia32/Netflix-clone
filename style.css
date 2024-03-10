@@ -39,6 +39,12 @@ nav{
     height: 62px;
 }
 
+@media screen and (max-width:1300px){
+    nav {
+        max-width: 80vw;
+    }
+}
+
 nav img{
     margin-top: 23px;
     width: 114px;
@@ -134,12 +140,11 @@ nav button{
     padding: 75px;
 }
 
+
 @media screen and (max-width: 1300px){
+    
     .first{
         flex-wrap: wrap;
-    }
-    .nav{
-        max-width: 80vw;
     }
 
     .main input{
@@ -299,6 +304,15 @@ nav button{
 @media screen and (max-width:1300px){
     .watch>video{
         top: 66px;
+    }
+
+    .watch img{
+        width:365px ;
+    }
+
+    .watch video{
+        height: 130px;
+        width:  386px;
     }
     
 }
